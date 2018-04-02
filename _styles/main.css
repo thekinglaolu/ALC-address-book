@@ -1,7 +1,35 @@
 /* ==== Font Declaration ==== */
+@font-face {
+    font-family: 'brushstroke_plainplain';
+    src: url('_fonts/BRUSHSTP-webfont.eot');
+    src: url('_fonts/BRUSHSTP-webfont.eot?#iefix') format('embedded-opentype'),
+         url('_fonts/BRUSHSTP-webfont.woff2') format('woff2'),
+         url('_fonts/BRUSHSTP-webfont.woff') format('woff'),
+         url('_fonts/BRUSHSTP-webfont.ttf') format('truetype'),
+         url('_fonts/BRUSHSTP-webfont.svg#brushstroke_plainplain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* ==== Resets ==== */
+body, h1, h2, p {
+	margin: 0;
+	border: 0;
+}
+
 /* ==== Clearfix ==== */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+
 /* ==== Global Styles ==== */
+
+
 /* ==== Header ==== */
 /* ==== Contact List ==== */
 /* ==== Contact Details ==== */
