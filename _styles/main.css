@@ -83,6 +83,11 @@ article.left {
 	line-height: 2em;
 }
 
+.view:hover {
+	color: #008bde;
+	cursor: pointer;
+}
+
 .contact p {
 	font-size: 1.5em;
 }
@@ -113,7 +118,7 @@ section.infoCard {
 	background-color: #fff;
 	border-radius: .25rem;
 	box-shadow: 0 1px 0 rgba(0,0,0,.25);
-	padding: .5em 2em;
+	padding: 3em 2em 1em;
 	border: 1px solid #e8e8e8;
 }
 
@@ -130,17 +135,64 @@ hr {
     border-right: none;
 }
 
-.info h4 {
-	font-size: 1.8em;
-	margin-bottom: .1em;
+.info {
+	display: none;
 }
 
-.info p {
+.infoTab h4 {
+	font-size: 1.8em;
+	margin-top: 0px;
+    margin-right: .5em;
+	float: left;
+}
+
+.infoTab p {
 	font-size: 1.5em;
+	float: left;
+	margin-top: .05em;
 }
 
 .infoTab {
-	display: inline;
+	display: inline-block;
+}
+
+button {
+	background: #67c561;
+	padding: .5em;
+	color: #323648;
+	margin: 1em auto;
+	border: none;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+button:hover {
+	background: #59a654;
+	color: #4f4f4f;
+	cursor: pointer;
+}
+
+section.button {
+	display: flex;
+}
+
+section.button button {
+	margin-top: 0;
+}
+
+.infoForm {
+	display: none;
+}
+
+.infoForm input {
+	border-radius: 1em;
+	padding: .2em 1em;
+	color: #323648;
+}
+
+.infoForm input:focus {
+    box-shadow: 0 0 5px #67c561;
+    border: 1px solid #67c561;
 }
 
 /* ==== Footer ==== */
