@@ -11,22 +11,18 @@
 		<h1>Take A Climb: Address Book</h1>
 	</header>
 	<main>
-		<article class="left">
+		<article class="left"><!-- 
 			<section class="contact">
 				<h4>David Afolayan <nobr class="view">View Detials</nobr></h4>
 				<p>0809175838</p>
-			</section>
-			<section class="contact">
-				<h4>David Afolayan <nobr class="view">View Detials</nobr></h4>
-				<p>0809175838</p>
-			</section>
+			</section> -->
 		</article>
 		<article class="right">
 			<section class="infoCard">
 				<h2> Contact Details </h2>
 				<hr>
 				<section class="info clearfix">
-					<section class="infoTab">
+					<!-- <section class="infoTab">
 						<h4>Name: </h4>
 						<p>Afolayan David</p>
 					</section>
@@ -39,9 +35,9 @@
 						<p>afolayan.david7@gmail.com</p>
 					</section>
 					<section class="button">
-						<button>Edit Contact</button>
-						<button>Delete Contact</button>
-					</section>
+						<button id="editContact">Edit Contact</button>
+						<button id="deleteContact">Delete Contact</button>
+					</section> -->
 				</section>
 				<section class="infoForm clearfix">
 					<section class="infoTab">
@@ -56,13 +52,17 @@
 						<h4>Email: </h4>
 						<input type="text" id="email">
 					</section>
+					<section class="button">
+						<button id="addContact">Add Contact</button>
+					</section>
 				</section>
 			</section>
-			<button>Add Contact</button>
+			<button id="createContact">Create Contact</button>
 		</article>
 	</main>
 	<footer>
 		<p> Made with <i class="far fa-heart"></i> by <a href="https://github.com/thekinglaolu">thekinglaolu</a></p>
 	</footer>
+	<script src="_scripts/script.js"></script>
 </body>
 </html>
