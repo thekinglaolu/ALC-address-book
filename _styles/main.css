@@ -139,14 +139,18 @@ hr {
 	display: none;
 }
 
-.infoTab h4 {
+.detailsTab {
+	display: flex;
+}
+
+.detailsTab h4 {
 	font-size: 1.8em;
 	margin-top: 0px;
     margin-right: .5em;
 	float: left;
 }
 
-.infoTab p {
+.detailsTab p {
 	font-size: 1.5em;
 	float: left;
 	margin-top: .05em;
@@ -154,6 +158,13 @@ hr {
 
 .infoTab {
 	display: inline-block;
+}
+
+.infoTab h4 {
+	font-size: 1.8em;
+	margin-top: 0px;
+    margin-right: .5em;
+	float: left;
 }
 
 button {
@@ -164,6 +175,7 @@ button {
 	border: none;
 	font-weight: bold;
 	font-size: 1.5em;
+	border-radius: 1em;
 }
 
 button:hover {
@@ -180,17 +192,17 @@ section.button button {
 	margin-top: 0;
 }
 
-.infoForm {
+.infoForm, .editForm {
 	display: none;
 }
 
-.infoForm input {
+.infoForm input, .editForm input {
 	border-radius: 1em;
 	padding: .2em 1em;
 	color: #323648;
 }
 
-.infoForm input:focus {
+.infoForm input:focus, .editForm input:focus {
     box-shadow: 0 0 5px #67c561;
     border: 1px solid #67c561;
 }
