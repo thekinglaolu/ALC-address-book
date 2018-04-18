@@ -143,27 +143,7 @@ window.onload = function(){
 
 	function saveEdit(e){
 		if(e.target.classList.contains("saveEdit")){
-			let datID = e.target.getAttribute('data-id');
-			console.log("edit ");
-			addressBook = JSON.parse(localStorage['addbook']);
-			let formObj = new jsonConst(name.value, phone.value, email.value);
-			console.log(formObj.name);
-			console.log(addressBook[datID].name);
-			/*for (var i = addressBook[datID].length; i >= 0; i++) {
-				addressBook[datID].name = formObj.name;
-				addressBook[datID].phone = formObj.phone;
-				addressBook[datID].email = formObj.email;
-			}
-			localStorage['addbook'] = JSON.stringify(addressBook);
-			console.log(addressBook[datID].name);
-
-			//hide form panel
-			showDetails.style.display = "block";
-			showForm.style.display = "none";
-			showEditForm.style.display = "none";
-			//Clear form inputs
-			clearForm();
-			showContact();*/
+			
 			
 		};
 	};
